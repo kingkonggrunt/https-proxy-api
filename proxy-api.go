@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	addr := flag.String("addr", "127.0.0.1:8080", "API server address")
+	addr := flag.String("addr", "0.0.0.0:8080", "API server address")
 	proxy := flag.String("proxy", "http://localhost:9999", "proxy to use")
 	flag.Parse()
 
